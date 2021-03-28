@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <meta name="Description" content="Contact us using the provided links">
+    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
+    <h1 style="text-align:center;font-size:300%;background-color: rgb(83, 81, 81); color: white;">Contact Us</h1>
+    <style>
+        body{
+            background-image: url("hellob.jpg");
+            /* background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: lighten; */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .t{
+            margin: 30px;
+            padding: 8px;
+            background: rgba(208, 214, 216, 0.849);
+            font-size: 24px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            border: 2px solid grey;
+            border-radius: 5%;
+        }
+        .container {
+          float: left;
+          height: 120px;
+          border: 2px solid rgb(102, 77, 77);
+          background-color: whitesmoke;
+          border-radius: 8px;
+          padding: 16px;
+          margin: 30px 20px;
+        }
+        
+        .container::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .container img {
+          float: left;
+          margin-right: 20px;
+          border-radius: 50%;
+        }
+        
+        .container span {
+          font-size: 20px;
+          margin-right: 15px;
+        }
+        .container:hover {
+            background-color: grey;
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        img:hover {
+         opacity: 0.5;
+        }
+
+        @media (max-width: 500px) {
+          .container {
+              text-align: center;
+          }
+          .container img {
+              margin: auto;
+              float: none;
+              display: block;
+          }
+        }
+        .gif{
+            display: flex;
+            justify-content: center;
+            display: inline;   
+        }
+        #git{
+            width: 350px;
+            margin-left: 100px;
+            
+        }
+        #monkey{
+            margin-right: 50px;
+        }
+        .link a{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none;
+            font-style: italic;
+            color: black;
+            font-size: 15px;
+        }
+        .link a:hover{
+            font-size: 20px;
+        }
+
+        </style>
+  </head>
+  <body>
+      <div class="gif">
+          <img id="monkey" src="monkeyop.gif" alt="Awesome monkey's gif">
+      </div>
+      <div class="gif">
+          <img src="gif1.gif" alt="contact us gif">
+      </div>
+      <div class="gif">
+          <img id="git" src="git.gif" alt="git gif">
+      </div>
+    <div class="row">
+        <div class="container">
+            <img src="Fitness_1.jpeg" alt="Profile Pic" style="width:90px">
+            <p><span>P Aswini Kumar</span> Studies at IIT BHU</p>
+            <p class="link">●<a href="https://github.com/aswinidev" target="_blank">GitHub</a>    ●<a href="https://www.instagram.com/aswinitalks/" target="_blank">Instagram</a></p>
+          </div>
+          
+          <div class="container">
+            <img src="Fitness_2.jpeg" alt="Profile Pic" style="width:90px">
+            <p><span >Apoorve Shukla</span> Studies at IIT BHU</p>
+            <p class="link">●<a href="https://github.com/apurv12345" target="_blank">GitHub</a>    ●<a href="https://www.instagram.com/apurv_126/" target="_blank">Instagram</a>    ●<a href="https://www.linkedin.com/in/apoorve-shukla-792b761ba/" target="_blank">Linkedin</a></p>
+          </div> 
+
+          <div class="container">
+            <img src="Fitness_2.jpeg" alt="Profile Pic" style="width:90px">
+            <p><span >A V Vyshak</span> Studies at IIT BHU</p>
+            <p class="link">●<a href="https://github.com/apurv12345" target="_blank">GitHub</a>    ●<a href="https://www.instagram.com/vysakh_a_v/" target="_blank">Instagram</a>    ●<a href="https://www.linkedin.com/in/apoorve-shukla-792b761ba/" target="_blank">Linkedin</a></p>
+          </div> 
+
+          <div class="container">
+            <img src="Fitness_2.jpeg" alt="Profile Pic" style="width:90px">
+            <p><span >Yash raj</span> Studies at IIT BHU</p>
+            <p class="link">●<a href="https://github.com/apurv12345" target="_blank">GitHub</a>    ●<a href="https://www.instagram.com/tigeryashraj/" target="_blank">Instagram</a>    ●<a href="https://www.linkedin.com/in/apoorve-shukla-792b761ba/" target="_blank">Linkedin</a></p>
+          </div> 
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 22%;
+}
+.logo img{
+    width: 50%;
+}
+#navigationbar{
+    display: flex;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+
+}
+.nlist{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nlist li a{
+    padding: 25px 10px;
+    text-decoration: none;
+    color: white;
+}
+.nlist li a:hover{
+    color: grey;
+    font-size: 18px;
+}
+.nlist li{
+    list-style: none;
+
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+body{
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
